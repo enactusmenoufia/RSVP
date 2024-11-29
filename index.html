@@ -249,7 +249,7 @@
             <div class="welcome-section">
                 <h1 class="alumni-name" id="alumniName">Loading...</h1>
                 <p id="welcomMessage">Preparing your personalized invitation...</p>
-                <span class="graduation-badge" id="graduationYear">Enactus Class</span>
+               
             </div>
 
 
@@ -331,8 +331,7 @@
                             alumniData.WelcomMessage ||
                             `welcome back! We're excited to celebrate with you.`;
 
-                        document.getElementById('graduationYear').textContent =
-                            `Enactus Class of ${alumniData.graduationYear || 'Unknown'}`;
+                        
 
                         // Pre-fill Name
                         document.getElementById('name').value = alumniData.name || '';
