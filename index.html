@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enactus Alumni Reunion | Exclusive RSVP</title>
-    
+
     <!-- Premium Typography -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Sora:wght@400;600;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Sora:wght@400;600;700&family=Manrope:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
     <style>
         :root {
             /* Sophisticated Color Palette */
-            --color-deep-space: #0F1020;           /* Deep midnight navy */
-            --color-electric-blue: #2E5BE6;        /* Vibrant professional blue */
-            --color-glacier-cyan: #00B4D8;         /* Modern accent cyan */
-            --color-titanium-gray: #353C52;        /* Sophisticated gray */
-            --color-frost-white: #F5F7FA;          /* Soft background white */
-            --color-emerald-accent: #10B981;       /* Elegant success green */
-            
+            --color-deep-space: #0F1020;
+            /* Deep midnight navy */
+            --color-electric-blue: #0f212b;
+            /* Vibrant professional blue */
+            --color-glacier-cyan: #0f212b;
+            /* Modern accent cyan */
+            --color-titanium-gray: #353C52;
+            /* Sophisticated gray */
+            --color-frost-white: #F5F7FA;
+            /* Soft background white */
+            --color-emerald-accent: #10B981;
+            /* Elegant success green */
+
             /* Refined Gradients */
             --gradient-primary: linear-gradient(135deg, var(--color-electric-blue) 0%, var(--color-glacier-cyan) 100%);
             --gradient-secondary: linear-gradient(145deg, var(--color-deep-space) 0%, var(--color-titanium-gray) 100%);
-            
+
             /* Typography Scale */
             --font-primary: 'Inter', sans-serif;
             --font-secondary: 'Sora', sans-serif;
             --font-accent: 'Manrope', sans-serif;
-            
+
             /* Advanced Shadow System */
-            --shadow-subtle: 0 4px 12px rgba(46,91,230,0.1);
-            --shadow-medium: 0 10px 30px rgba(46,91,230,0.15);
-            --shadow-intense: 0 15px 45px rgba(46,91,230,0.2);
+            --shadow-subtle: 0 4px 12px rgba(46, 91, 230, 0.1);
+            --shadow-medium: 0 10px 30px rgba(46, 91, 230, 0.15);
+            --shadow-intense: 0 15px 45px rgba(46, 91, 230, 0.2);
         }
 
         /* Comprehensive Reset */
@@ -59,9 +68,9 @@
             max-width: 1200px;
             background: white;
             border-radius: 32px;
-            box-shadow: 
-                0 50px 100px rgba(46,91,230,0.08), 
-                0 15px 35px rgba(46,91,230,0.05);
+            box-shadow:
+                0 50px 100px rgba(46, 91, 230, 0.08),
+                0 15px 35px rgba(46, 91, 230, 0.05);
             display: grid;
             grid-template-columns: 1.3fr 1.7fr;
             min-height: 850px;
@@ -88,14 +97,14 @@
             left: -50%;
             width: 200%;
             height: 200%;
-            background: rgba(255,255,255,0.05);
+            background: rgba(255, 255, 255, 0.05);
             transform: rotate(-45deg);
         }
 
         .enactus-logo {
             width: 280px;
             margin-bottom: 40px;
-            filter: drop-shadow(0 15px 25px rgba(0,0,0,0.2));
+            filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.2));
             z-index: 2;
             position: relative;
         }
@@ -183,7 +192,7 @@
         .form-input {
             width: 100%;
             padding: 20px 25px;
-            border: 2px solid rgba(46,91,230,0.15);
+            border: 2px solid rgba(46, 91, 230, 0.15);
             border-radius: 16px;
             font-size: 16px;
             background: white;
@@ -193,7 +202,7 @@
         .form-input:focus {
             outline: none;
             border-color: var(--color-electric-blue);
-            box-shadow: 0 0 0 4px rgba(46,91,230,0.1);
+            box-shadow: 0 0 0 4px rgba(46, 91, 230, 0.1);
         }
 
         .submit-button {
@@ -224,13 +233,15 @@
         }
     </style>
 </head>
+
 <body>
     <div class="reunion-container">
         <div class="branding-panel">
-            <img src="/api/placeholder/280/180" alt="Enactus Logo" class="enactus-logo">
+            <img src="https://i.postimg.cc/tTY0yjMc/Adventus-png.png" alt="Enactus Logo" class="enactus-logo">
             <h2 class="branding-title">Enactus Menoufia Opening</h2>
             <p class="branding-subtitle">
-                Reconnect with purpose. Amplify your entrepreneurial journey with a community that transforms ideas into impactful solutions.
+                Reconnect with purpose. Amplify your entrepreneurial journey with a community that transforms ideas into
+                impactful solutions.
             </p>
         </div>
 
@@ -247,7 +258,7 @@
                     <label for="name" class="form-label">Full Name</label>
                     <input type="text" id="name" class="form-input" placeholder="Enter your full name" required>
                 </div>
-                
+
                 <div class="form-group">
                     <label for="mealPreference" class="form-label">Culinary Selection</label>
                     <select id="mealPreference" class="form-input" required>
@@ -257,12 +268,13 @@
                         <option value="Mini Burger + Pane">Mini Burger + Pane</option>
                     </select>
                 </div>
-                
+
                 <div class="form-group">
                     <label for="notes" class="form-label">Additional Considerations</label>
-                    <textarea id="notes" class="form-input" rows="3" placeholder="Any specific requirements or notes?"></textarea>
+                    <textarea id="notes" class="form-input" rows="3"
+                        placeholder="Any specific requirements or notes?"></textarea>
                 </div>
-                
+
                 <button type="submit" class="submit-button">Confirm Attendance</button>
             </form>
         </div>
@@ -311,15 +323,15 @@
                         console.log("Alumni Data:", alumniData);
 
                         // Update Welcome Section
-                        document.getElementById('alumniName').textContent = 
+                        document.getElementById('alumniName').textContent =
                             alumniData.name || 'Alumni';
-                        
+
                         // Use database welcome message, with a fallback
-                        document.getElementById('welcomMessage').textContent = 
-                            alumniData.WelcomMessage || 
-                            `Welcome back! We're excited to celebrate with you.`;
-                        
-                        document.getElementById('graduationYear').textContent = 
+                        document.getElementById('welcomMessage').textContent =
+                            alumniData.WelcomMessage ||
+                            `welcome back! We're excited to celebrate with you.`;
+
+                        document.getElementById('graduationYear').textContent =
                             `Enactus Class of ${alumniData.graduationYear || 'Unknown'}`;
 
                         // Pre-fill Name
@@ -372,4 +384,5 @@
         });
     </script>
 </body>
+
 </html>
